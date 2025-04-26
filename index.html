@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Pages por 100€</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes fadeUp {
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .fade-up {
+      animation: fadeUp 1s ease-out forwards;
+    }
+  </style>
+</head>
+<body class="bg-black text-white font-sans">
+
+  <!-- Hero Section -->
+  <!-- Tipos de páginas -->
+<section class="bg-black py-20 px-6 text-center">
+  <h2 class="text-3xl md:text-4xl font-bold mb-12 fade-up">Elige el tipo de página que necesitás</h2>
+  <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+    <!-- Landing Común -->
+    <div class="bg-[#111] p-8 rounded-2xl shadow-xl transform hover:scale-105 transition fade-up">
+      <h3 class="text-2xl font-bold text-[#00fff7] mb-4">Landing Page Común</h3>
+      <ul class="text-gray-300 text-left mb-6 space-y-2">
+        <li>✅ Diseño simple y efectivo</li>
+        <li>✅ Redirección a WhatsApp</li>
+        <li>✅ Enlaces a redes sociales</li>
+        <li>✅ Ideal para freelancers, servicios y promos</li>
+      </ul>
+      <p class="text-xl font-bold mb-4 text-white">Desde 100€</p>
+      <a href="#contacto" class="bg-[#00fff7] text-black font-semibold px-6 py-3 rounded-full hover:bg-[#00ccc4] transition">Quiero esta opción</a>
+    </div>
+
+    <!-- Página Web Pro -->
+    <div class="bg-[#1a1a1a] p-8 rounded-2xl shadow-xl transform hover:scale-105 transition fade-up">
+      <h3 class="text-2xl font-bold text-[#00fff7] mb-4">Página Web Pro</h3>
+      <ul class="text-gray-300 text-left mb-6 space-y-2">
+        <li>🚀 Diseño profesional y personalizado</li>
+        <li>🛒 Secciones múltiples (inicio, servicios, contacto, etc.)</li>
+        <li>🔗 Integración con redes, WhatsApp, formularios y más</li>
+        <li>📱 Responsive para móviles y tablets</li>
+      </ul>
+      <p class="text-xl font-bold mb-4 text-white">Desde 200€</p>
+      <a href="#contacto" class="bg-[#00fff7] text-black font-semibold px-6 py-3 rounded-full hover:bg-[#00ccc4] transition">Quiero una web pro</a>
+    </div>
+  </div>
+</section>
+
+  <section class="min-h-screen flex items-center justify-center px-6 bg-gradient-to-b from-black to-[#00fff7]">
+    <div class="text-center max-w-2xl fade-up">
+      <h1 class="text-4xl md:text-6xl font-bold mb-6">Landing pages profesionales por solo 100€</h1>
+      <p class="text-lg md:text-xl mb-8">Creamos páginas web rápidas, atractivas y efectivas con enlaces directos a WhatsApp y redes sociales. Perfectas para autónomos y emprendedores.</p>
+      <a href="#contacto" class="bg-[#00fff7] text-black font-semibold px-8 py-4 rounded-full text-lg hover:bg-[#00ccc4] transition">
+        Quiero mi landing
+      </a>
+    </div>
+  </section>
+
+  <!-- Portafolio -->
+  <section class="bg-black py-20 px-6 text-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-12 fade-up">Algunos de mis trabajos</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="bg-[#111] p-6 rounded-2xl shadow-lg transform hover:scale-105 transition fade-up">
+        <h3 class="text-xl font-semibold mb-2">landing de pestañas y cejas</h3>
+        <p class="mb-4 text-gray-300">Página para un local de pestañaas para tomar turno y exponerse en google con contacto por WhatsApp.</p>
+        <a href="#" class="text-[#00fff7] hover:underline"></a>
+      </div>
+      <div class="bg-[#111] p-6 rounded-2xl shadow-lg transform hover:scale-105 transition fade-up">
+        <h3 class="text-xl font-semibold mb-2">Landing Coach Personal</h3>
+        <p class="mb-4 text-gray-300">Perfil de entrenador con enlace a Instagram whatsApp y formulario de contacto llamado a la accion.</p>
+        <a href="#" class="text-[#00fff7] hover:underline"></a>
+      </div>
+      <div class="bg-[#111] p-6 rounded-2xl shadow-lg transform hover:scale-105 transition fade-up">
+        <h3 class="text-xl font-semibold mb-2">Landing de servicio tecnico</h3>
+        <p class="mb-4 text-gray-300">Informacion de los service que se realizan, enlace a whatsApp, formulario de contacto.</p>
+        <a href="#" class="text-[#00fff7] hover:underline"></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA final o contacto -->
+  <section id="contacto" class="bg-black py-20 px-6 text-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-4 fade-up">¿Listo para tener tu web?</h2>
+    <p class="mb-8 text-lg fade-up">Escribime y en pocos días tenés tu landing 100% funcional.</p>
+    <a href="https://wa.me/549XXXXXXXXXX" target="_blank" class="bg-[#00fff7] text-black font-semibold px-6 py-3 rounded-full text-lg hover:bg-[#00ccc4] transition fade-up">
+      Contactame por WhatsApp
+    </a>
+  </section>
+
+</body>
+</html>
